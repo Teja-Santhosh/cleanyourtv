@@ -1,0 +1,16 @@
+
+{
+  "name": "CleanYourTV Cloud Environment",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/tailscale/codespace/tailscale": {
+      "version": "latest"
+    },
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.12"
+    },
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "17"
+    }
+  }
+}
